@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Send a 'POST' request to '/api/x_snc_polls/v1/poll'</description>
+        <display_name>Send REST Request - Inbound</display_name>
+        <inputs/>
+        <order>1</order>
+        <step_config display_value="Send REST Request - Inbound">e00571a10b3222000b7da95e93673a8f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:02:18</sys_created_on>
+        <sys_id>81e20bed90e11300964f48412a7aaf75</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Send REST Request - Inbound</sys_name>
+        <sys_package display_value="Polls" source="x_snc_polls">cd1f2766133e1200ed373d62f244b082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Polls">cd1f2766133e1200ed373d62f244b082</sys_scope>
+        <sys_update_name>sys_atf_step_81e20bed90e11300964f48412a7aaf75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-19 18:07:23</sys_updated_on>
+        <table/>
+        <test display_value="CC18: Create new poll">ce6287ed90e11300964f48412a7aafbf</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=81e20bed90e11300964f48412a7aaf75"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>81e20bed90e11300964f48412a7aaf75</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:02:18</sys_created_on>
+        <sys_id>00134bed90e11300964f48412a7aaf82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 18:02:18</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">59877da10b3222000b7da95e93673a56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>81e20bed90e11300964f48412a7aaf75</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:02:18</sys_created_on>
+        <sys_id>48134bed90e11300964f48412a7aaf82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 18:02:18</sys_updated_on>
+        <value/>
+        <variable display_value="">58408e250b3222000b7da95e93673a5c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>81e20bed90e11300964f48412a7aaf75</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:02:18</sys_created_on>
+        <sys_id>4c134bed90e11300964f48412a7aaf81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 18:02:18</sys_updated_on>
+        <value>{"Content-Type":"application/json"}</value>
+        <variable display_value="">cec002650b3222000b7da95e93673aae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>81e20bed90e11300964f48412a7aaf75</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:02:18</sys_created_on>
+        <sys_id>84134bed90e11300964f48412a7aaf82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 18:02:18</sys_updated_on>
+        <value>/api/x_snc_polls/v1/poll</value>
+        <variable display_value="">50bff9250b3222000b7da95e93673a9b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>81e20bed90e11300964f48412a7aaf75</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:02:18</sys_created_on>
+        <sys_id>88134bed90e11300964f48412a7aaf81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 18:02:18</sys_updated_on>
+        <value>d0ddd6e590e11300964f48412a7aaf9f</value>
+        <variable display_value="">020a6af09fd32200ef4afa7dc67fcfec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>81e20bed90e11300964f48412a7aaf75</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:02:18</sys_created_on>
+        <sys_id>c0134bed90e11300964f48412a7aaf82</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-19 18:07:23</sys_updated_on>
+        <value>{&#13;
+  "name" : "Programming Language Poll from Test",&#13;
+  "usergroup" : "Service Desk",&#13;
+  "questions" : [&#13;
+    {&#13;
+      "question" : "What is your favorite programming language?",&#13;
+      "choices" : [&#13;
+        {&#13;
+          "choice" : "C++"&#13;
+        },&#13;
+        {&#13;
+          "choice" : "Java"&#13;
+        },&#13;
+        {&#13;
+          "choice" : "C#"&#13;
+        }&#13;
+      ]&#13;
+    }&#13;
+  ]&#13;
+}</value>
+        <variable display_value="">81e042650b3222000b7da95e93673aa2</variable>
+    </sys_variable_value>
+</record_update>

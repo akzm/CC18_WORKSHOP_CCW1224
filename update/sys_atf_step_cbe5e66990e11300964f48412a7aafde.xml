@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Assert a response payload element '/result/name' is 'Test Poll'</description>
+        <display_name>Assert JSON Response Payload Element</display_name>
+        <inputs/>
+        <order>6</order>
+        <step_config display_value="Assert JSON Response Payload Element">afc114199f132200ef4afa7dc67fcf64</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 15:55:19</sys_created_on>
+        <sys_id>cbe5e66990e11300964f48412a7aafde</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Assert JSON Response Payload Element</sys_name>
+        <sys_package display_value="Polls" source="x_snc_polls">cd1f2766133e1200ed373d62f244b082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Polls">cd1f2766133e1200ed373d62f244b082</sys_scope>
+        <sys_update_name>sys_atf_step_cbe5e66990e11300964f48412a7aafde</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-19 18:06:20</sys_updated_on>
+        <table/>
+        <test display_value="CC18: Retrieve poll detail">1ec1262990e11300964f48412a7aafa2</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=cbe5e66990e11300964f48412a7aafde"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cbe5e66990e11300964f48412a7aafde</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 15:55:19</sys_created_on>
+        <sys_id>6ff52a6990e11300964f48412a7aaf26</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-19 18:06:20</sys_updated_on>
+        <value>/result/name</value>
+        <variable display_value="">5a9258199f132200ef4afa7dc67fcfb4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cbe5e66990e11300964f48412a7aafde</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 15:55:19</sys_created_on>
+        <sys_id>abf52a6990e11300964f48412a7aaf26</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-19 18:06:20</sys_updated_on>
+        <value>equals</value>
+        <variable display_value="">2db298199f132200ef4afa7dc67fcfbc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cbe5e66990e11300964f48412a7aafde</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 15:55:19</sys_created_on>
+        <sys_id>e7f52a6990e11300964f48412a7aaf26</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-19 18:06:20</sys_updated_on>
+        <value>Test Poll</value>
+        <variable display_value="">7b139c199f132200ef4afa7dc67fcfb3</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Send a 'POST' request to '/api/x_snc_polls/v1/poll/{{Step 1: Record Insert.Record}}/vote'</description>
+        <display_name>Send REST Request - Inbound</display_name>
+        <inputs/>
+        <inputs/>
+        <order>5</order>
+        <step_config display_value="Send REST Request - Inbound">e00571a10b3222000b7da95e93673a8f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>dbdc676990251300964f48412a7aaf3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send REST Request - Inbound</sys_name>
+        <sys_package display_value="Polls" source="x_snc_polls">cd1f2766133e1200ed373d62f244b082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Polls">cd1f2766133e1200ed373d62f244b082</sys_scope>
+        <sys_update_name>sys_atf_step_dbdc676990251300964f48412a7aaf3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <table/>
+        <test display_value="CC18: Retrieve poll results">b6c8436190251300964f48412a7aaf63</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=dbdc676990251300964f48412a7aaf3e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dbdc676990251300964f48412a7aaf3e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>000de76990251300964f48412a7aaf88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <value>d0ddd6e590e11300964f48412a7aaf9f</value>
+        <variable display_value="">020a6af09fd32200ef4afa7dc67fcfec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dbdc676990251300964f48412a7aaf3e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>0c0de76990251300964f48412a7aaf88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <value>/api/x_snc_polls/v1/poll/{{step['466ce36990251300964f48412a7aafc3'].record_id}}/vote</value>
+        <variable display_value="">50bff9250b3222000b7da95e93673a9b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dbdc676990251300964f48412a7aaf3e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>480de76990251300964f48412a7aaf88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <value>{&#13;
+"votes": [&#13;
+{&#13;
+"question_id": "{{step['137c276990251300964f48412a7aafac'].record_id}}",&#13;
+"vote": "Java"&#13;
+}&#13;
+]&#13;
+}</value>
+        <variable display_value="">81e042650b3222000b7da95e93673aa2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dbdc676990251300964f48412a7aaf3e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>840de76990251300964f48412a7aaf88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">59877da10b3222000b7da95e93673a56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dbdc676990251300964f48412a7aaf3e</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>c00de76990251300964f48412a7aaf88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <value>{"Content-Type":"application/json"}</value>
+        <variable display_value="">cec002650b3222000b7da95e93673aae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dbdc676990251300964f48412a7aaf3e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>cc0de76990251300964f48412a7aaf88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <value/>
+        <variable display_value="">58408e250b3222000b7da95e93673a5c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dbdc676990251300964f48412a7aaf3e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>basic_auth</field>
+        <id>dbdc676990251300964f48412a7aaf3e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>800de76990251300964f48412a7aaf87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>end_point</field>
+        <id>dbdc676990251300964f48412a7aaf3e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>c80de76990251300964f48412a7aaf87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value>/api/x_snc_polls/v1/poll/{{step['466ce36990251300964f48412a7aafc3'].record_id}}/vote</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>dbdc676990251300964f48412a7aaf3e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>440de76990251300964f48412a7aaf87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>dbdc676990251300964f48412a7aaf3e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>8c0de76990251300964f48412a7aaf87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>request_body</field>
+        <id>dbdc676990251300964f48412a7aaf3e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:05:32</sys_created_on>
+        <sys_id>080de76990251300964f48412a7aaf87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value>{&#13;
+"votes": [&#13;
+{&#13;
+"question_id": "{{step['137c276990251300964f48412a7aafac'].record_id}}",&#13;
+"vote": "Java"&#13;
+}&#13;
+]&#13;
+}</value>
+    </sys_element_mapping>
+</record_update>
