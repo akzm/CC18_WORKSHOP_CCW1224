@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Vote in poll by poll_id with V2 version of the API. &#13;
+ - Poll_id is sys_id of poll. &#13;
+&#13;
+Payload will include question_id's and choice value.</description>
+        <name>CC18: Vote in poll V2</name>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-19 19:04:21</sys_created_on>
+        <sys_id>398a948290291300964f48412a7aaf0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CC18: Vote in poll V2</sys_name>
+        <sys_package display_value="Polls" source="x_snc_polls">cd1f2766133e1200ed373d62f244b082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Polls">cd1f2766133e1200ed373d62f244b082</sys_scope>
+        <sys_update_name>sys_atf_test_398a948290291300964f48412a7aaf0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-19 19:04:21</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=398a948290291300964f48412a7aaf0a"/>
+</record_update>

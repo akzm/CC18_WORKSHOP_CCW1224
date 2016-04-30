@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Retrieve poll detail by poll_id.&#13;
+- poll_id: sys_id of poll record</description>
+        <name>CC18: Retrieve poll detail</name>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 15:37:12</sys_created_on>
+        <sys_id>1ec1262990e11300964f48412a7aafa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CC18: Retrieve poll detail</sys_name>
+        <sys_package display_value="Polls" source="x_snc_polls">cd1f2766133e1200ed373d62f244b082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Polls">cd1f2766133e1200ed373d62f244b082</sys_scope>
+        <sys_update_name>sys_atf_test_1ec1262990e11300964f48412a7aafa2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 15:37:12</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=1ec1262990e11300964f48412a7aafa2"/>
+</record_update>

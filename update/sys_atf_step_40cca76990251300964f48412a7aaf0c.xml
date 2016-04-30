@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Insert a record into 'x_snc_polls_choices' with the following values: 
+Question = {{Step 2: Record Insert.Record}}
+and Choice = Java</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:04:39</sys_created_on>
+        <sys_id>40cca76990251300964f48412a7aaf0c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Polls" source="x_snc_polls">cd1f2766133e1200ed373d62f244b082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Polls">cd1f2766133e1200ed373d62f244b082</sys_scope>
+        <sys_update_name>sys_atf_step_40cca76990251300964f48412a7aaf0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:05:32</sys_updated_on>
+        <table>x_snc_polls_choices</table>
+        <test display_value="CC18: Retrieve poll results">b6c8436190251300964f48412a7aaf63</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=40cca76990251300964f48412a7aaf0c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>40cca76990251300964f48412a7aaf0c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:04:40</sys_created_on>
+        <sys_id>07cca76990251300964f48412a7aaf6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:04:40</sys_updated_on>
+        <value>question={{step['137c276990251300964f48412a7aafac'].record_id}}^choice=Java^EQ</value>
+        <variable display_value="">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>40cca76990251300964f48412a7aaf0c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:04:40</sys_created_on>
+        <sys_id>43cca76990251300964f48412a7aaf6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:04:40</sys_updated_on>
+        <value>x_snc_polls_choices</value>
+        <variable display_value="">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>40cca76990251300964f48412a7aaf0c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:04:40</sys_created_on>
+        <sys_id>8fcca76990251300964f48412a7aaf6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:04:40</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=40cca76990251300964f48412a7aaf0c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>40cca76990251300964f48412a7aaf0c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:04:40</sys_created_on>
+        <sys_id>87cca76990251300964f48412a7aaf6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:04:40</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>40cca76990251300964f48412a7aaf0c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:04:40</sys_created_on>
+        <sys_id>0fcca76990251300964f48412a7aaf6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:04:40</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>question={{step['137c276990251300964f48412a7aafac'].record_id}}^choice=Java^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>40cca76990251300964f48412a7aaf0c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:04:40</sys_created_on>
+        <sys_id>4bcca76990251300964f48412a7aaf6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:04:40</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

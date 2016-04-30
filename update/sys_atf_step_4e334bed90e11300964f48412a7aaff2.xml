@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Assert a response header 'Content-Type' is 'application/json;charset=UTF-8'</description>
+        <display_name>Assert Response Header</display_name>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Assert Response Header">ccd64c519f132200ef4afa7dc67fcf6a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:03:08</sys_created_on>
+        <sys_id>4e334bed90e11300964f48412a7aaff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Response Header</sys_name>
+        <sys_package display_value="Polls" source="x_snc_polls">cd1f2766133e1200ed373d62f244b082</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Polls">cd1f2766133e1200ed373d62f244b082</sys_scope>
+        <sys_update_name>sys_atf_step_4e334bed90e11300964f48412a7aaff2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 18:03:08</sys_updated_on>
+        <table/>
+        <test display_value="CC18: Create new poll">ce6287ed90e11300964f48412a7aafbf</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=4e334bed90e11300964f48412a7aaff2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e334bed90e11300964f48412a7aaff2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:03:08</sys_created_on>
+        <sys_id>04438bed90e11300964f48412a7aaf85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 18:03:08</sys_updated_on>
+        <value>Content-Type</value>
+        <variable display_value="">cd4744919f132200ef4afa7dc67fcf6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e334bed90e11300964f48412a7aaff2</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:03:08</sys_created_on>
+        <sys_id>40438bed90e11300964f48412a7aaf85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 18:03:08</sys_updated_on>
+        <value>application/json;charset=UTF-8</value>
+        <variable display_value="">19280c919f132200ef4afa7dc67fcf16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4e334bed90e11300964f48412a7aaff2</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 18:03:08</sys_created_on>
+        <sys_id>8c438bed90e11300964f48412a7aaf84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 18:03:08</sys_updated_on>
+        <value>equals</value>
+        <variable display_value="">416784919f132200ef4afa7dc67fcff4</variable>
+    </sys_variable_value>
+</record_update>
